@@ -1,0 +1,11 @@
+.barra{
+    width: 80%;
+    border-radius: 15px;
+    background-color: rgb(119, 116, 116);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 15px;
+
+}
