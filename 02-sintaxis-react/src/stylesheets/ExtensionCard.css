@@ -1,0 +1,80 @@
+
+    .card {
+  width: 260px;
+  padding: 16px;
+  background: #0d1224;
+  border-radius: 16px;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.top {
+  display: flex;
+  gap: 12px;
+}
+
+.icono {
+  background: #cde5db;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background: #1a2d2b;
+  border-radius: 6px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.titulo {
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 1;
+  margin-bottom: 2px;
+}
+
+.desc {
+  line-height: 1.2;
+}
+
+.but {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+/* Toggle Switch */
+.boton {
+  position: relative;
+  width: 42px;
+  height: 22px;
+  display: inline-block;
+  inset: 0;
+  background: #d93b3b;
+  border-radius: 22px;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
