@@ -1,0 +1,10 @@
+
+.section-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.section-card:hover {
+  transform: scale(1.05);
+}
+
