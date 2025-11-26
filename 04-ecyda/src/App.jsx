@@ -1,7 +1,14 @@
 import { SeccionTienda } from "./Components/SeccionTienda"
-
+import { Header } from "./Components/Header"
 export const App = () => {
   return (
-    <SeccionTienda/>
+    <>
+      <Header
+        headerColor="bg-green"
+        header2Color="bg-lightColor"
+      />
+     <SeccionTienda/>
+     
+    </>
   )
 }
