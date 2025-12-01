@@ -1,12 +1,12 @@
 import "../Components/Header.css"
 
-export const Header = ({ headerColor , header2Color }) => {
+export const Header = ({ headerColor, header2Color, mitad }) => {
   return (
     <div className="Header ">
       <nav class={`navbar navbar-expand-lg  ${headerColor}`} data-bs-theme="dark">
         <div class="container ">
           <a class="navbar-brand" href="#">
-            <img src="./logo-blanco.png" alt="Bootstrap" width="60" height="50"/>
+            <img src="./logo-blanco.png" alt="Bootstrap" width="60" height="50" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,12 @@ export const Header = ({ headerColor , header2Color }) => {
           </div>
         </div>
       </nav>
-       <section className="Mitad">
-        <img src="image.png" alt="Bootstrap"  />
-       </section>
-      <div className={`text-white text-center fs-5 ${header2Color}`}>Lo normal fue lo primero en morir</div>
+      <div className={`${mitad}`}>
+
+      </div>
+      <div className={`text-white text-center fs-5 ${header2Color} mt-3`}>Lo normal fue lo primero en morir</div>
+      
     </div>
+
   )
 }

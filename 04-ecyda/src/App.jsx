@@ -6,6 +6,7 @@ export const App = () => {
       <Header
         headerColor="bg-green"
         header2Color="bg-lightColor"
+        mitad= "mitad"
       />
      <SeccionTienda/>
      
