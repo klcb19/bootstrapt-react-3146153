@@ -33,8 +33,65 @@ export const Header = ({ headerColor, header2Color, mitad }) => {
 
       </div>
       <div className={`text-white text-center fs-5 ${header2Color} mt-3`}>Lo normal fue lo primero en morir</div>
-      
-    </div>
+
+      <div className="container-sm">
+        <div className="row">
+          <div className="col-6 mb-3">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              
+              </div>
+            </div>
+            
+
+          </div>
+          
+           <div className="col-6 mb-3">
+            <div class="card" >
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              
+              </div>
+            </div>
+
+          </div>
+          
+           <div className="col-6 mb-3">
+            <div class="card" >
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <col />
+              </div>
+            </div>
+
+          </div>
+           <div className="col-6 mb-3">
+            <div class="card" >
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <col />
+              </div>
+            </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+        
+     
+    
 
   )
 }
