@@ -1,14 +1,20 @@
-import { SeccionTienda } from "./Components/SeccionTienda"
-import { Header } from "./Components/Header"
+
+import { Comic } from "./Components/Comic"
+import { Tienda } from "./Components/Tienda"
 export const App = () => {
   return (
     <>
-      <Header
+     {/*  <Tienda
         headerColor="bg-green"
         header2Color="bg-lightColor"
         mitad= "mitad"
       />
-     <SeccionTienda/>
+     */}
+     <Comic
+         headerColor="bg-green"
+         header2Color="bg-lightColor"
+         edificios="edificios"
+        />
      
     </>
   )
