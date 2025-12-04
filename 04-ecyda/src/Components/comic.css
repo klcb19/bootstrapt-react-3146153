@@ -13,12 +13,13 @@
 }
 
 .edificios{
-    background-image: url(./image.png);
-    width: 99%;
-    height: 125px;
-    background-size: contain;
-    background-repeat: repeat no-repeat;
-    background-position: bottom center;
+    background-image: url(./edificio.gif);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: bottom;
+   
+
 
 
 

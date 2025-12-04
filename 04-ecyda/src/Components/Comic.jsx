@@ -1,7 +1,7 @@
 
 import "./Comic.css"
 
-export const Comic = ({ headerColor, header2Color,edificios }) => {
+export const Comic = ({ headerColor, header2Color, edificios }) => {
     return (
         <div className="Header ">
             <nav class={`navbar navbar-expand-lg  ${headerColor}`} data-bs-theme="dark">
@@ -30,10 +30,41 @@ export const Comic = ({ headerColor, header2Color,edificios }) => {
                     </div>
                 </div>
             </nav>
-           <div className={`${edificios}`}>
+            <div className={`${edificios}`}>
+                <section className="hero container" />
+                <div className="hero-top text-center m-auto " style={{ maxWidth: "772" }}>
+                    <h1>EL CALENTAMIENTO GLOBAL Y LA INDUSTRALIZACION</h1>
+                    <p className="subtitle">Un estudiante conocido como Ossian debe enfrentarse contra un nuevo riesgo para la sociedad, Asher, un hombre planta que ha acabado con toda la humanidad sin sentir nada de remordimiento o miedo, pero todavía hay un sobreviviente y él no lo sabe.</p>
+                </div>
 
-           </div>
-        
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../portada1.gif" class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                </div>
+                <div class="card">
+                    <img src="../portada2.gif" class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                </div>
+                <div class="card">
+                    <img src="../portada3.gif" class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                </div>
+            </div>
         </div>
+
     )
 }
