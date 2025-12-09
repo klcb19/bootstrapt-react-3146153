@@ -47,7 +47,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                     </div>
                 </div>
 
-                <section className="tarjetass container p-4">
+                <section className="container mt-5 pt-5" style={{ marginTop: "120px" }}>
                     <div className="row">
                         <div className="col ">
                             <div className="card m-auto  border-white" style={{ width: "23rem", height: "30rem" }}>
@@ -78,95 +78,142 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                     </div>
                 </section>
             </div>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="../asher.gif" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with s.</p>
+                 
+            <div className="container mt-4">
+                  <div className="card-body text-center " >
+                                <p>PERSONAJES.</p>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-body-secondary">Last updated 3 mins ago</small>
-                            </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-body-secondary">Last updated 3 mins ago</small>
-                            </div>
-                    </div>
-                </div>
-            </div>    
+                <div className="row justify-content-center gap-4">
 
-
-                <div className="container text-center py-5 my-5 border rounded shadow-sm"
-                    style={{
-                        backgroundColor: "white",
-                        maxWidth: "900px"
-                    }}>
-                    <h2 className="fw-bold" style={{ letterSpacing: "2px" }}>
-                        COMING SOON
-                    </h2>
-                </div>
-
-
-                <div className="container my-5 p-4 rounded shadow-sm"
-                    style={{
-                        backgroundColor: "#e8d3b7",
-                        maxWidth: "900px"
-                    }}>
-                    <h5 className="text-center mb-2 fw-bold">
-                        INSTRUCCIONES PARA EL CÓMIC
-                    </h5>
-
-                    <div className="row text-center">
-
-                        <div className="col">
-                            <div className="p-3 border rounded bg-light">
-                                <img src="../mesa.gif" width="60" className="mb-2" />
-                                <p className="fw-semibold">Instruccion 2</p>
-                                <p>Comience a leer el comic, es libre de interactuar con el raton.</p>
-                            </div>
-                        </div>
-
-                        <div className="col">
-                            <div className="p-3 border rounded bg-light">
-                                <img src="../mano.gif" width="60" className="mb-2" />
-                                <p className="fw-semibold">Instruccion 1</p>
-                                <p>Ingrese al comic, desplazandose hacia abajo.</p>
-                            </div>
-                        </div>
-
-                        <div className="col">
-                            <div className="p-3 border rounded bg-light">
-                                <img src="../apagado.gif" width="60" className="mb-2" />
-                                <p className="fw-semibold">Instruccion 3</p>
-                                <p>El comic cuenta con botones interactivos, presionalos.</p>
+                    <div className="col-md-4 d-flex justify-content-center">
+                        <div className="card">
+                            <img
+                                src="../asher.gif"
+                                className="card-img-top"
+                                alt="Asher"
+                            />
+                            <div className="card-body text-center">
+                                <p>Asher.</p>
                             </div>
                         </div>
                     </div>
+
+                    <div className="col-md-4 d-flex justify-content-center">
+                        <div className="card">
+                            <img
+                                src="../osslan.gif"
+                                className="card-img-top"
+                                alt="Ossian"
+                            />
+                            <div className="card-body text-center">
+                                <p>Ossian.</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
 
 
-                <div className="container my-5 p-4 border rounded shadow-sm"
-                    style={{ maxWidth: "900px" }}>
-                    <div className="row g-3">
-                        <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                        <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                        <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                        <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                        <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                        <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
+
+            <div className="container text-center py-5 my-5 border rounded shadow-sm"
+                style={{
+                    backgroundColor: "white",
+                    maxWidth: "900px"
+                }}>
+                <h2 className="fw-bold" style={{ letterSpacing: "2px" }}>
+                    COMING SOON
+                </h2>
+            </div>
+
+
+            <div className="container my-5 p-4 rounded shadow-sm"
+                style={{
+                    backgroundColor: "#e8d3b7",
+                    maxWidth: "900px"
+                }}>
+                <h5 className="text-center mb-2 fw-bold">
+                    INSTRUCCIONES PARA EL CÓMIC
+                </h5>
+
+                <div className="row text-center">
+
+                    <div className="col">
+                        <div className="p-3 border rounded bg-light">
+                            <img src="../mesa.gif" width="60" className="mb-2" />
+                            <p className="fw-semibold">Instruccion 2</p>
+                            <p>Comience a leer el comic, es libre de interactuar con el raton.</p>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="p-3 border rounded bg-light">
+                            <img src="../mano.gif" width="60" className="mb-2" />
+                            <p className="fw-semibold">Instruccion 1</p>
+                            <p>Ingrese al comic, desplazandose hacia abajo.</p>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="p-3 border rounded bg-light">
+                            <img src="../apagado.gif" width="60" className="mb-2" />
+                            <p className="fw-semibold">Instruccion 3</p>
+                            <p>El comic cuenta con botones interactivos, presionalos.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            );
+
+
+            <div className="container my-5 p-4 border rounded shadow-sm"
+                style={{ maxWidth: "900px" }}>
+                <div className="row g-3">
+                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
+                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
+                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
+                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
+                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
+                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
+                    
+                </div>
+            </div>
+            <>
+            <div className="container p-2 ">
+                <div className={`navbar-expand-lg  ${headerColor}`} >
+                    <div className="row container">
+                        <div className="col d-flex flex-column justify-content-center">
+                            <div className=" m-auto  border-white d-flex " style={{ width: "23rem" }}>
+                                <div className="card-body d-flex flex-column justify-content-center">
+                                    <p className="card-text d-flex justify-content-center nav-link">Lineas de atención</p>
+                                    <p className="card-text d-flex justify-content-center nav-link">CEL: 320 740 60 79</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col d-flex flex-column justify-content-center p-4">
+                            <div className=" m-auto  border-white d-flex" style={{ width: "23rem" }}>
+                                <div className="card-body d-flex flex-column justify-content-center ">
+                                    <p className="card-text d-flex justify-content-center nav-link" href="#">ECYDA</p>
+                                    <p className="card-text d-flex justify-content-center nav-link" href="#">Horarios</p>
+                                    <p className="card-text d-flex justify-content-center nav-link" href="#">Lun - Sab: 7:00 A.M a 5:00 P.M</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col d-flex flex-column justify-content-center">
+                            <div className=" m-auto  border-white d-flex" style={{ width: "23rem" }}>
+                                <div className="card-body d-flex flex-column justify-content-center">
+                                    <p className="card-text d-flex justify-content-center nav-link" href="#">Ubicación</p>
+                                    <p className="card-text d-flex justify-content-center nav-link" href="#">CLL 85b #33-09</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="d-flex justify-content-center p-2" width="100%">
+                            <img className="" width="25%" src="./social.gif" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+        </div>
+        
+    );
 }
