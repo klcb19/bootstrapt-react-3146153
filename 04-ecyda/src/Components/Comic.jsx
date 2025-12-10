@@ -49,6 +49,12 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
 
                 <section className="container mt-5 pt-5" style={{ marginTop: "120px" }}>
                     <div className="row">
+                        <div className="card-body text-center " >
+                            <p>REFERENTES VISUALES  </p>
+                        </div>
+                        <div className="card-body text-center " >
+                            <p>Para desarollar nuestro proyecto de un comic digital interactivo, tomamos algunos referentes visuales.  </p>
+                        </div>
                         <div className="col ">
                             <div className="card m-auto  border-white" style={{ width: "23rem", height: "30rem" }}>
                                 <img className="img4 m-auto" width="250" src="../portada1.gif" alt="" />
@@ -78,11 +84,11 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                     </div>
                 </section>
             </div>
-                 
+
             <div className="container mt-4">
-                  <div className="card-body text-center " >
-                                <p>PERSONAJES.</p>
-                            </div>
+                <div className="card-body text-center " >
+                    <p>PERSONAJES.</p>
+                </div>
                 <div className="row justify-content-center gap-4">
 
                     <div className="col-md-4 d-flex justify-content-center">
@@ -116,21 +122,19 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
 
 
 
-            <div className="container text-center py-5 my-5 border rounded shadow-sm"
-                style={{
-                    backgroundColor: "white",
-                    maxWidth: "900px"
-                }}>
-                <h2 className="fw-bold" style={{ letterSpacing: "2px" }}>
-                    COMING SOON
-                </h2>
+            <div className="page d-flex justify-content-between ">
+                <div className="side-bar"></div>
+                <div className="content-box">
+                    <span className="coming-text">COMING SOON</span>
+                </div>
+                <div className="side-bar right"></div>
             </div>
 
 
-            <div className="container my-5 p-4 rounded shadow-sm"
+            <div className="container my-5 p-4 rounded shadow-sm col-8 col-lg-4 "
                 style={{
                     backgroundColor: "#e8d3b7",
-                    maxWidth: "900px"
+                    width: "100%"
                 }}>
                 <h5 className="text-center mb-2 fw-bold">
                     INSTRUCCIONES PARA EL CÓMIC
@@ -138,7 +142,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
 
                 <div className="row text-center">
 
-                    <div className="col">
+                    <div className="col-12 col-lg-4">
                         <div className="p-3 border rounded bg-light">
                             <img src="../mesa.gif" width="60" className="mb-2" />
                             <p className="fw-semibold">Instruccion 2</p>
@@ -146,7 +150,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                         </div>
                     </div>
 
-                    <div className="col">
+                    <div className="col-12 col-lg-4">
                         <div className="p-3 border rounded bg-light">
                             <img src="../mano.gif" width="60" className="mb-2" />
                             <p className="fw-semibold">Instruccion 1</p>
@@ -154,7 +158,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                         </div>
                     </div>
 
-                    <div className="col">
+                    <div className="col- col-lg-4">
                         <div className="p-3 border rounded bg-light">
                             <img src="../apagado.gif" width="60" className="mb-2" />
                             <p className="fw-semibold">Instruccion 3</p>
@@ -168,52 +172,50 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
             <div className="container my-5 p-4 border rounded shadow-sm"
                 style={{ maxWidth: "900px" }}>
                 <div className="row g-3">
-                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                    <div className="col-4"><div className="border" style={{ height: "200px" }}></div></div>
-                    
+                  
+                       <img src="../portada-comic.gif" width="60" className="mb-2" />
                 </div>
             </div>
             <>
-            <div className="container p-2 ">
-                <div className={`navbar-expand-lg  ${headerColor}`} >
-                    <div className="row container">
-                        <div className="col d-flex flex-column justify-content-center">
-                            <div className=" m-auto  border-white d-flex " style={{ width: "23rem" }}>
-                                <div className="card-body d-flex flex-column justify-content-center">
-                                    <p className="card-text d-flex justify-content-center nav-link">Lineas de atención</p>
-                                    <p className="card-text d-flex justify-content-center nav-link">CEL: 320 740 60 79</p>
+            <div className={`navbar-expand-lg  ${headerColor}`}>
+                <div className="container">
+                    <div className="navbar-expand-lg">
+                        <div className="row container">
+                            <div className="col d-flex flex-column justify-content-center">
+                                <div className=" m-auto  border-white d-flex " style={{ width: "23rem" }}>
+                                    <div className="card-body d-flex flex-column justify-content-center">
+                                        <p className="card-text d-flex justify-content-center nav-link">Lineas de atención</p>
+                                        <p className="card-text d-flex justify-content-center nav-link">CEL: 320 740 60 79</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col d-flex flex-column justify-content-center p-4">
-                            <div className=" m-auto  border-white d-flex" style={{ width: "23rem" }}>
-                                <div className="card-body d-flex flex-column justify-content-center ">
-                                    <p className="card-text d-flex justify-content-center nav-link" href="#">ECYDA</p>
-                                    <p className="card-text d-flex justify-content-center nav-link" href="#">Horarios</p>
-                                    <p className="card-text d-flex justify-content-center nav-link" href="#">Lun - Sab: 7:00 A.M a 5:00 P.M</p>
+                            <div className="col d-flex flex-column justify-content-center p-4">
+                                <div className=" m-auto  border-white d-flex" style={{ width: "23rem" }}>
+                                    <div className="card-body d-flex flex-column justify-content-center ">
+                                        <p className="card-text d-flex justify-content-center nav-link" href="#">ECYDA</p>
+                                        <p className="card-text d-flex justify-content-center nav-link" href="#">Horarios</p>
+                                        <p className="card-text d-flex justify-content-center nav-link" href="#">Lun - Sab: 7:00 A.M a 5:00 P.M</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col d-flex flex-column justify-content-center">
-                            <div className=" m-auto  border-white d-flex" style={{ width: "23rem" }}>
-                                <div className="card-body d-flex flex-column justify-content-center">
-                                    <p className="card-text d-flex justify-content-center nav-link" href="#">Ubicación</p>
-                                    <p className="card-text d-flex justify-content-center nav-link" href="#">CLL 85b #33-09</p>
+                            <div className="col d-flex flex-column justify-content-center">
+                                <div className=" m-auto  border-white d-flex" style={{ width: "23rem" }}>
+                                    <div className="card-body d-flex flex-column justify-content-center">
+                                        <p className="card-text d-flex justify-content-center nav-link" href="#">Ubicación</p>
+                                        <p className="card-text d-flex justify-content-center nav-link" href="#">CLL 85b #33-09</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="d-flex justify-content-center p-2" width="100%">
-                            <img className="" width="25%" src="./social.gif" alt="" />
+                            <div className="d-flex justify-content-center p-2" width="100%">
+                                <img className="" width="25%" src="./social.gif" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </>
+            </>
         </div>
-        
+
     );
 }

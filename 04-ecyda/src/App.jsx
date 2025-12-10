@@ -14,6 +14,7 @@ export const App = () => {
          headerColor="bg-green"
          header2Color="bg-lightColor"
          edificios="edificios"
+         
         />
      
     </>
