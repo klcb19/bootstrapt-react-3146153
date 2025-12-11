@@ -37,7 +37,8 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                 <div className={`${edificios}`}>
                     <section className="hero container" />
 
-                    <div className="hero-top text-center m-auto " style={{ maxWidth: "660px" }}>
+                    <div className="hero-top text-center m-auto p-4 " style={{ maxWidth: "660px" }}>
+                        
                         <h1>EL CALENTAMIENTO GLOBAL Y LA INDUSTRALIZACION</h1>
                         <p className="subtitle">
                             Un estudiante conocido como Ossian debe enfrentarse contra un nuevo riesgo para la sociedad, Asher,
