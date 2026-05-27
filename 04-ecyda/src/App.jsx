@@ -4,12 +4,12 @@ import { Tienda } from "./Components/Tienda"
 export const App = () => {
   return (
     <>
-     {/*  <Tienda
+{/*       <Tienda
         headerColor="bg-green"
         header2Color="bg-lightColor"
         mitad= "mitad"
-      />
-     */}
+      /> */}
+    
      <Comic
          headerColor="bg-green"
          header2Color="bg-lightColor"
